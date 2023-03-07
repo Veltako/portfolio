@@ -126,6 +126,10 @@ h6 {
   text-decoration: none;
 }
 
+.line{
+  border-top: #ffec00;;
+}
+
 #main {
   margin-left: 300px;
 }
@@ -340,6 +344,10 @@ section {
 .contact{
   background: #0D0D0D;
   border-top: 3px solid #ffec00;
+  border-bottom: 3px solid #ffec00;
+}
+
+.skills{
   border-bottom: 3px solid #ffec00;
 }
 
