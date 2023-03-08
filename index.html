@@ -237,25 +237,30 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="php/php-email-form.php" method="post" role="form" class="php-email-form">
+            <form action="assets/php/php-email-form.php" method="post" role="form" class="php-email-form">
               <div class="row">
+
                 <div class="form-group col-md-6">
                   <label for="name">Votre nom</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
+
                 <div class="form-group col-md-6">
                   <label for="name">Votre E-mail</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
+
               <div class="form-group">
                 <label for="name">Sujet</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
+
               <div class="form-group">
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
+
               <div class="form-group">
                 <label for="groupe"  class="test">Type de contrat.</label>
                 <select name="groupe" id="groupe">
@@ -265,6 +270,7 @@
                   <option value="3">Les deux</option>
                 </select>
               </div>
+
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
