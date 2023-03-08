@@ -1,25 +1,22 @@
-/**
-* Template Name: iPortfolio - v3.10.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+  --jaune: #ffec00;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
 a {
-  color: #ffec00;
+  color: var(--jaune);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffec00;
+  color: var(--jaune);
   text-decoration: none;
 }
 
@@ -57,7 +54,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffec00;
+  background: var(--jaune);
 }
 
 .back-to-top.active {
@@ -121,13 +118,13 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #ffec00;
+  background: var(--jaune);
   color: #050011;
   text-decoration: none;
 }
 
 .line{
-  border-top: #ffec00;;
+  border-top: var(--jaune);
 }
 
 #main {
@@ -193,7 +190,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #ffec00;
+  color: var(--jaune);
 }
 
 /* Mobile Navigation */
@@ -232,7 +229,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/space.jpg") top center;
+  background: url("../../img/space.jpg") top center;
   background-size: cover;
 }
 
@@ -272,7 +269,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #ffec00;
+  border-bottom: 3px solid var(--jaune);
 }
 
 @media (min-width: 1024px) {
@@ -326,7 +323,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ffec00;
+  background: var(--jaune);
   bottom: 0;
   left: 0;
 }
@@ -337,18 +334,18 @@ section {
 
 .about{
   background: #0D0D0D;
-  border-top: 3px solid #ffec00;
-  border-bottom: 3px solid #ffec00;
+  border-top: 3px solid var(--jaune);
+  border-bottom: 3px solid var(--jaune);
 }
 
 .contact{
   background: #0D0D0D;
-  border-top: 3px solid #ffec00;
-  border-bottom: 3px solid #ffec00;
+  border-top: 3px solid var(--jaune);
+  border-bottom: 3px solid var(--jaune);
 }
 
 .skills{
-  border-bottom: 3px solid #ffec00;
+  border-bottom: 3px solid var(--jaune);
 }
 
 /*--------------------------------------------------------------
@@ -357,7 +354,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #ffec00;
+  color: var(--jaune);
 }
 
 .about .content ul {
@@ -378,7 +375,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ffec00;
+  color: var(--jaune);
   line-height: 0;
 }
 
@@ -425,7 +422,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #F2E205;
+  background-color: var(--jaune);
 }
 
 /*--------------------------------------------------------------
@@ -460,7 +457,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #F2E205;
+  color: var(--jaune);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -503,7 +500,7 @@ section {
   color: #000000;
   font-size: 28px;
   text-align: center;
-  background:#F2E205;
+  background:var(--jaune);
   transition: 0.3s;
   width: 50%;
 }
@@ -636,7 +633,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #F2E205;
+  background: var(--jaune);
   color: #000000;
 }
 
@@ -728,7 +725,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #F2E205;
+  background: var(--jaune);
   border: 0;
   padding: 10px 24px;
   color: #000000;
