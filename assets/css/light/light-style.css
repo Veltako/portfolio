@@ -3,10 +3,11 @@
 --------------------------------------------------------------*/
 :root{
   --jaune: #ffec00;
-  --rouge: #517494;
-  --gris: #001b23;
+  --rouge: #EEE1C6;
+  --gris: /* #001b23 */ #08283E;
   --bleu: #0dcaf0;
   --bar: #888888;
+  --bleuvomi: #00516a;
 }
 
 body {
@@ -43,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: var(--rouge);
+  background: var(--bleuvomi);
   border: 3px solid black;
   width: 40px;
   height: 40px;
@@ -55,10 +56,6 @@ h6 {
   font-size: 28px;
   color: #ffffff;
   line-height: 0;
-}
-
-.back-to-top:hover {
-  background: var(--bleu);
 }
 
 .back-to-top.active {
@@ -338,7 +335,7 @@ section {
 
 .about{
   background: #344f3f;
-  border-top: 5px solid var(--gris);
+   border-top: 5px solid var(--gris);
   border-bottom: 5px solid var(--gris);
 }
 
@@ -350,7 +347,7 @@ section {
 
 .skills{
   background: #344f3f;
-  border-bottom: 5px solid var(--gris);
+   border-bottom: 5px solid var(--gris);
 }
 
 /*--------------------------------------------------------------
@@ -608,7 +605,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: var(--rouge);
+  background: var(--bleuvomi);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -730,7 +727,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--rouge);
+  background: var(--bleuvomi);
   border: 0;
   padding: 10px 24px;
   color: #000000;
@@ -794,3 +791,7 @@ section {
     padding-right: 20px;
   }
 }
+
+/*--------------------------------------------------------------
+. Card
+--------------------------------------------------------------*/
